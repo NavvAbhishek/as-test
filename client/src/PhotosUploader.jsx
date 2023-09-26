@@ -64,7 +64,7 @@ const PhotosUploader = ({ addedPhotos, onChange }) => {
             <div className="h-32 flex relative" key={link}>
               <img
                 className="rounded-2xl w-full object-cover"
-                src={"https://autospot-api.onrender.com/uploads/" + link}
+                src={"https://autospot-backend-9jjf.onrender.com/uploads/" + link}
               />
               <button
                 onClick={(ev) => removePhoto(ev, link)}

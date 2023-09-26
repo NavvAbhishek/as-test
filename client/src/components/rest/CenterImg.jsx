@@ -10,7 +10,7 @@ const CenterImg = ({ center, index = 0, className = null }) => {
   return (
     <img
       className={className}
-      src={"https://autospot-api.onrender.com/uploads/"+center.photos[index]}
+      src={"https://autospot-backend-9jjf.onrender.com/uploads/"+center.photos[index]}
       alt=""
     />
   );

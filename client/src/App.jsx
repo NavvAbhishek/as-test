@@ -25,7 +25,7 @@ import CenterPage from "./pages/CenterPage";
 
 //import ServicesPage from "./pages/ServicesPage";
 
-axios.defaults.baseURL = "https://autospot-api.onrender.com";
+axios.defaults.baseURL = "https://autospot-backend-9jjf.onrender.com";
 axios.defaults.withCredentials = true;
 
 export default function App() {

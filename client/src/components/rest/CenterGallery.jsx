@@ -19,7 +19,7 @@ export default function CenterGallery({center}) {
           </div>
           {center?.photos?.length > 0 && center.photos.map(photo => (
             <div>
-              <img src={"https://autospot-api.onrender.com/uploads/"+photo} alt=""/>
+              <img src={"https://autospot-backend-9jjf.onrender.com/uploads/"+photo} alt=""/>
             </div>
           ))}
         </div>
@@ -33,17 +33,17 @@ export default function CenterGallery({center}) {
         <div>
           {center.photos?.[0] && (
             <div>
-              <img src={"https://autospot-api.onrender.com/uploads/"+center.photos[0]}  onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover" alt=""/>
+              <img src={"https://autospot-backend-9jjf.onrender.com/uploads/"+center.photos[0]}  onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover" alt=""/>
             </div>
           )}
         </div>
         <div className="grid gap-2">
           {center.photos?.[1] && (
-            <img src={"https://autospot-api.onrender.com/uploads/"+center.photos[1]} onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover"  alt=""/>
+            <img src={"https://autospot-backend-9jjf.onrender.com/uploads/"+center.photos[1]} onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover"  alt=""/>
           )}
           <div className="overflow-hidden">
             {center.photos?.[2] && (
-              <img src={"https://autospot-api.onrender.com/uploads/"+center.photos[2]} onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover relative top-2"  alt=""/>
+              <img src={"https://autospot-backend-9jjf.onrender.com/uploads/"+center.photos[2]} onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover relative top-2"  alt=""/>
             )}
           </div>
         </div>

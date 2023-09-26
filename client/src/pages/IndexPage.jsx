@@ -15,7 +15,7 @@ export default function IndexPage() {
         <Link to={'/explore/account/center/'+center._id}>
           <div className="bg-gray-500 mb-2 rounded-2xl flex">
             {center.photos?.[0] && (
-              <img src={'https://autospot-api.onrender.com/uploads/'+center.photos?.[0]} className="rounded-2xl object-cover" alt=""/>
+              <img src={'https://autospot-backend-9jjf.onrender.com/uploads/'+center.photos?.[0]} className="rounded-2xl object-cover" alt=""/>
             )}
           </div>
           <h2 className="font-bold">{center.address}</h2>
